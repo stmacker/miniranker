@@ -1,0 +1,21 @@
+div.title {
+  font-family:"Courier New",Courier,monospace;
+  height:150px; 
+  font-size: 28px;
+  text-align: center
+}
+div.head {
+  font-family:"Courier New",Courier,monospace;
+  height:100px; 
+  line-height: 100px; 
+  font-size: 28px; 
+  width: 25%;
+  min-width: 150px;
+  float: left; 
+  text-align: center;
+  color: #33CCFF;
+}
+a {
+ text-decoration: none;
+ color: #33CCFF; 
+}

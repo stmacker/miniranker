@@ -1,0 +1,54 @@
+div{
+ color: #FFFFFF;
+ font-family: Verdana, Arial, Sans-Serif;
+}
+
+.list{
+  font-size: 21px;
+  width: 100%;
+  min-width: 500px;
+  min-height: 150px;
+  float: left; 
+  text-align: center;
+  color: #CCCCCC;
+}
+
+.details{
+  font-size: 21px;
+  width: 100%;
+  min-height: 60px;
+  float: left;
+  text-align: center;
+  color: #CCCCCC;
+}
+
+td {
+ text-align: center;
+ font-family: Helvetica, Verdana, Arial, Sans-Serif;
+}
+
+.front {
+  font-size: 16px;
+  font-weight: 700;
+  color: #CCCCCC;
+  border-collapse: collapse;
+}
+
+.front th{
+  color: black;
+  background-color: #CCCCCC;
+}
+
+.front tr:last-child hr{
+    width: 0px;
+    border-bottom: 0px solid black;
+}
+
+.front tr:nth-last-child(n+2) hr{
+    width: 300px;
+    border-bottom: 2px solid #181818;
+}
+
+.front tr:hover{
+  background-color: #555555; 
+}

@@ -1,0 +1,39 @@
+div.title {
+  font-family:"Courier New",Courier,monospace;
+  height:150px; 
+  font-size: 28px;
+  text-align: center
+}
+div.head {
+  font-family:"Courier New",Courier,monospace; 
+  line-height: 100px; 
+  font-size: 28px; 
+  width: 25%;
+  min-width: 150px;
+  float: left; 
+  text-align: center;
+  color: #33CCFF;
+}
+div.head:hover .head-list{
+  display: block;
+  z-index: 1;
+}
+div.head-list {
+  font-family:"Courier New",Courier,monospace; 
+  line-height: 25px; 
+  font-size: 28px; 
+  width: 25%;
+  min-width: 150px;
+  float: left; 
+  text-align: center;
+  color: #33CCFF;
+  z-index: 3;
+  background-color: black;
+  opacity: 0.9;
+  position: absolute;
+  display:none;
+}
+a {
+ text-decoration: none;
+ color: #33CCFF; 
+}

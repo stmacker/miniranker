@@ -1,0 +1,11 @@
+div.title {
+  font-family:"Courier New",Courier,monospace;
+  font-size: 28px; 
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+a {
+ text-decoration: none;
+ color: #33CCFF; 
+}

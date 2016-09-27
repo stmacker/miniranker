@@ -1,0 +1,47 @@
+div{
+ color: #FFFFFF;
+ font-family: Verdana, Arial, Sans-Serif;
+}
+
+.list{
+  font-size: 21px;
+  width: 100%;
+  min-width: 600px;
+  min-height: 150px;
+  float: left; 
+  text-align: center;
+  color: #CCCCCC;
+}
+
+.details{
+  font-size: 21px;
+  width: 100%;
+  min-height: 60px;
+  float: left;
+  text-align: center;
+  color: #CCCCCC;
+}
+
+td {
+ text-align: center;
+ font-family: Helvetica, Verdana, Arial, Sans-Serif;
+}
+
+.front tr:nth-child(odd){
+ background-color: #181818;
+}
+
+.front {
+  font-size: 16px;
+  font-weight: 700;
+  color: #CCCCCC;
+}
+
+.front th{
+  color: black;
+  background-color: #CCCCCC;
+}
+
+.front tr:hover{
+  background-color: #555555; 
+}
